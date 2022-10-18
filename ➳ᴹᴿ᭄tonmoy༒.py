@@ -421,11 +421,11 @@ class Main:
 		self.loop = 0
 		os.system("clear")
 		print(logo)
-		print("\n [A] File Cloning")
-		print(" [B] Public Cloning")
-		print(" [C] Create File")
-		print(" [D] 2009-10 Cloning")
-		print(" [X] 2011-14 Cloning")
+		print("\n [1] File Cloning")
+		print(" [2] Public Cloning")
+		print(" [3] Create File")
+		print(" [4] 2009-10 Cloning")
+		print(" [4] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
 		TONMOY =input(" Choose : ")
 		if TONMOY in ["1", "01"]:
